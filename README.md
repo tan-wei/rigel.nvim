@@ -38,7 +38,7 @@ Dark, starry blue theme inspired by the star Rigel ✨
     require("rigel").setup {
       transparent = false,  -- Set to true for transparent background
       italic = true,        -- Enable italic for comments
-      bold = false,         -- Enable bold for some groups
+      bold = true,         -- Enable bold for some groups
     }
   end,
 }
@@ -55,8 +55,8 @@ Dark, starry blue theme inspired by the star Rigel ✨
 ```lua
 require("rigel").setup {
   transparent = false,
-  italic = false,
-  bold = false,
+  italic = true,
+  bold = true,
 }
 ```
 

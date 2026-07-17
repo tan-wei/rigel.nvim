@@ -15,8 +15,8 @@ local M = {}
 
 local defaults = {
   transparent = false,
-  italic = false,
-  bold = false,
+  italic = true,
+  bold = true,
 }
 
 ---@type RigelOpts
