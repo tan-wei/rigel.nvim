@@ -31,7 +31,7 @@ Dark, starry blue theme inspired by the star Rigel ✨
 
 ```lua
 {
-  "Rigellute/rigel.nvim",
+  "tan-wei/rigel.nvim",
   lazy = true,
   priority = 1000,
   config = function()
@@ -65,8 +65,8 @@ require("rigel").setup {
 | Option        | Type      | Default | Description                  |
 |---------------|-----------|---------|------------------------------|
 | `transparent` | `boolean` | `false` | Transparent background       |
-| `italic`      | `boolean` | `false` | Italic for comments          |
-| `bold`        | `boolean` | `false` | Bold for some groups         |
+| `italic`      | `boolean` | `true`  | Italic for comments          |
+| `bold`        | `boolean` | `true`  | Bold for some groups         |
 
 ## Terminal Colors
 
